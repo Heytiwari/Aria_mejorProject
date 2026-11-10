@@ -1,6 +1,31 @@
-@media (max-width: 991px){
-    #intro{
-        display: flex;
-        flex-direction: column;
+@media (max-width: 1230px) and (min-width: 992px){
+   .starthead h1{
+    font-size: 55px;
+   }
+   .para {
+        width: 50%;
     }
+   
+}
+
+
+
+@media (max-width: 991px){
+
+    .para {
+        width: 90% !important;
+    }
+
+    .grid {
+    grid-template-columns: 1fr;
+}
+    
+}
+
+@media (max-width: 776px){
+    .starthead h1{
+    font-size: 40px;
+   }
+
+    
 }

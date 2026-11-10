@@ -27,6 +27,16 @@ html {
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  color: #787976;
+  font:
+    400 1rem/1.5625rem "Open Sans",
+    sans-serif;
+}
+
 :root {
   --primary-color: #14bf98;
   --secondry-color: #787976;
@@ -37,33 +47,25 @@ html {
 }
 
 #shadow {
-    position: relative;
+  position: relative;
   background:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("img/header-background.jpg") center center no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
   width: 100%;
 }
-body{
-  color: #787976;
-  font:
-    400 1rem/1.5625rem "Open Sans",
-    sans-serif;
-  overflow-x: hidden;
-}
-
 
 ul li .active {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 ul li a {
-  color: var(--secondry2-color);
+  color: var(--secondry2-color) !important;
 }
 
 ul li a:hover {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   font-weight: 700;
 }
 .fa-twitter,
@@ -123,7 +125,7 @@ ul li a:hover {
 .para {
   font-size: 18px;
   color: var(--secondry2-color);
-  text-align: center;
+  text-align: center !important;
 }
 
 .btn {
@@ -153,4 +155,9 @@ ul li a:hover {
 }
 .img:hover {
   transform: scale(1.1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

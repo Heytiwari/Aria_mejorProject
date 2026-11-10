@@ -12,7 +12,7 @@
 https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 " rel="stylesheet" />
 	<link rel="stylesheet" href="style.css" />
-	<!-- <link rel="stylesheet" href="media.css" /> -->
+	<link rel="stylesheet" href="media.css" />
 </head>
 
 <body>
@@ -21,37 +21,55 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 	<div class="container-fluid" id="shadow">
 		<section id="home"></section>
 
-		<header id="navbar" class="container-fluid px-5 pt-2 d-flex justify-content-between align-items-center">
-			<img src="img/logo.svg" alt="Logo" width="100px" />
-			<!-- <i class="fa-solid fa-bars menu "></i> -->
-			<nav>
-				<ul class="d-flex justify-content-between align-items-center gap-4 pt-3 list-unstyled px-2" aria-labelledby="navbarDropdown">
-					<li>
-						<a class="nav-link page-scroll active fw-bold" href="#header">HOME</a>
-					</li>
-					<li><a class="text-decoration-none" href="#intro">INTRO</a></li>
-					<li><a class="text-decoration-none" href="#service">SERVICES</a></li>
-					<li><a class="text-decoration-none" href="#callme">CALL ME</a></li>
-					<li><a class="text-decoration-none" href="#project">PROJECTS</a></li>
-					<li>
-						<a class="text-decoration-none" href="#about">ABOUT<i class="fa-solid fa-caret-down"></i></a>
-					</li>
-					<li><a class="text-decoration-none" href="#contact">CONTACT</a></li>
-					<div class="icon d-flex justify-content-center align-items-center gap-3 pe-3">
-						<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-						<a href="https://x.com/hellotiwari94"><i class="fa-brands fa-twitter"></i></a>
-					</div>
-				</ul>
-			</nav>
-		</header>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Logo" width="100px" /></a>
+				<button class="navbar-toggler z-3" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto">
 
-		<section class="main">
-			<div class="starthead d-flex justify-content-center flex-column">
-				<h1 class="fw-bold">BUSINESS <span class="words"></span></h1>
+						<li class="nav-item">
+							<a class="nav-link active fw-bolder" aria-current="page" href="#home">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#intro">INTRO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services">SERVICES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#callme">CALL ME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#project">PROJECTS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">CONTACT</a>
+						</li>
 
-				<p class="para">
+						<div class="icon d-flex justify-content-center align-items-center gap-3 pe-3">
+							<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="https://x.com/hellotiwari94"><i class="fa-brands fa-twitter"></i></a>
+						</div>
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+		<section class="main container">
+			<div class="starthead d-flex justify-content-center flex-column gap-3">
+				<h1 class="fw-bold w-60 text-center">BUSINESS <span class="words"></span></h1>
+
+				<p class="para w-50 mx-auto">
 					Aria is a top consultancy top company speacilizing inn buisness
-					growth using <br />
+					growth using
 					online marketing and conversion optimization tactics
 				</p>
 
@@ -62,7 +80,7 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 		</section>
 	</div>
 
-	<section class="container d-flex justify-content-center gap-5" id="intro">
+	<section class="container grid gap-5" id="intro">
 		<div class="text-container">
 			<div class="section-title">INTRO</div>
 			<h2>We Offer Some Of The Best Business Growth Services In Town</h2>
@@ -76,9 +94,9 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 			</p>
 			<div class="author">Louise Donovan - CEO</div>
 		</div>
-		<div class="col-lg-7">
+		<div class="w-100">
 			<div class="image-container rounded-2">
-				<img class="img rounded-2" src="img/intro-office.jpg" alt="website template image"/>
+				<img class="img img-fluid rounded-2" src="img/intro-office.jpg" alt="website template image" />
 			</div>
 		</div>
 	</section>
@@ -724,7 +742,7 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 	<script src="
 https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js
 "></script>
-<!-- <script src="./js/script.js"></script> -->
+	<!-- <script src="./js/script.js"></script> -->
 </body>
 
 </html>
