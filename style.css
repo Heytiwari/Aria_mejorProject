@@ -161,3 +161,8 @@ ul li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.card{
+  width: 320px;
+  /* height: 350px; */
+}
