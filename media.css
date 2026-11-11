@@ -1,31 +1,34 @@
-@media (max-width: 1230px) and (min-width: 992px){
-   .starthead h1{
+@media (max-width: 1230px) and (min-width: 992px) {
+  .starthead h1 {
     font-size: 55px;
-   }
-   .para {
-        width: 50%;
-    }
-   
+  }
+  .para {
+    width: 50%;
+  }
 }
 
+@media (max-width: 991px) {
+  .para {
+    width: 90% !important;
+  }
 
-
-@media (max-width: 991px){
-
-    .para {
-        width: 90% !important;
-    }
-
-    .grid {
+  .grid {
     grid-template-columns: 1fr;
-}
-    
+  }
+
+  .row,
+  .service-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media (max-width: 776px){
-    .starthead h1{
+@media (max-width: 776px) {
+  .starthead h1 {
     font-size: 40px;
-   }
+  }
 
-    
+  .row,
+  .service-card {
+    grid-template-columns: 1fr;
+  }
 }

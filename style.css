@@ -41,6 +41,7 @@ body {
   --primary-color: #14bf98;
   --secondry-color: #787976;
   --secondry2-color: #d3d4d0;
+  --secondry3-color: #484A46;
   --p-color: #cdcccb;
   --white: #ffffff;
   --white1: #f4f3f3;
@@ -162,7 +163,46 @@ ul li a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
-.card{
-  width: 320px;
-  /* height: 350px; */
+.hexagon-icon {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+
+.hexagon-icon img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.hexagon-icon i {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+.row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.fa-square{
+  color: var(--primary-color);
+}
+
+.service-card{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.price{
+  color: var(--primary-color);
+}
+.section-title-2{
+  color: var(--primary-color);
+}
+.services{
+  color: var(--secondry3-color);
 }

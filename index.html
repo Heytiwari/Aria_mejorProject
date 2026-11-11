@@ -105,16 +105,16 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 	</section>
 
 
-	<section class="container-fluid text-center">
+	<section class="container-fluid">
 		<div class="container">
-			<div class="row gap-5">
-				<div class="card col-xl-4 col-md-6 col-sm-12 pt-2 justify-content-center">
-					<span class="fa-stack position-relative">
-						<img src="img/hexagon-green.svg" alt="" />
-						<i class="fas fa-binoculars position-absolute top-50 start-50 translate-middle"></i>
+			<div class="row gap-4">
+				<div class="card1 pt-2">
+					<span class="hexagon-icon mb-4">
+						<img src="img/hexagon-green.svg" alt="">
+						<i class="fas fa-binoculars fs-3"></i>
 					</span>
 					<div class="card-body">
-						<h4 class="card-title">Environment Analysis</h4>
+						<h4 class="card-title fw-bold mb-3">Environment Analysis</h4>
 						<p>
 							The starting point of any success story is knowing your current
 							position in the business environment
@@ -122,14 +122,14 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 					</div>
 				</div>
 
-				<div class="card col-xl-4 col-md-6 col-sm-12 pt-2">
+				<div class="card1 pt-2">
 
-					<span class="fa-stack position-relative">
-						<img src="img/hexagon-green.svg" alt="" />
-						<i class="fas fa-list-alt fa-stack-1x position-absolute top-50 start-50 translate-middle"></i>
+					<span class="hexagon-icon mb-4">
+						<img src="img/hexagon-green.svg" alt="" width="70px" />
+						<i class="fas fa-list-alt fa-stack-1x fs-3"></i>
 					</span>
 					<div class="card-body">
-						<h4 class="card-title">Development Planning</h4>
+						<h4 class="card-title fw-bold mb-3">Development Planning</h4>
 						<p>
 							After completing the environmental analysis the next stage is to
 							design and plan your development strategy
@@ -137,14 +137,14 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 					</div>
 				</div>
 
-				<div class="card col-xl-4 col-md-6 col-sm-12 pt-2">
+				<div class="card1 pt-2">
 
-					<span class="fa-stack position-relative">
-						<img src="img/hexagon-green.svg" alt="" />
-						<i class="fas fa-chart-pie fa-stack-1x position-absolute top-50 start-50 translate-middle"></i>
+					<span class="hexagon-icon mb-">
+						<img src="img/hexagon-green.svg" alt="" width="70px" />
+						<i class="fas fa-chart-pie fa-stack-1x fs-3"></i>
 					</span>
 					<div class="card-body">
-						<h4 class="card-title">Execution & Evaluation</h4>
+						<h4 class="card-title fw-bold mb-3">Execution & Evaluation</h4>
 						<p>
 							In this phase you will focus on executing the actions plan and
 							evaluating the results after each marketing campaign
@@ -156,84 +156,88 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 	</section>
 
 
-	<div class="service" id="service">
-		<div class="section-title-2">SERVICES</div>
-		<h2 id="choose">
-			Choose The Service Package <br />
-			That Suits Your Needs
-		</h2>
-		<div class="boxes">
-			<div class="box">
-				<div class="imgwrapper">
-					<img src="img/services-1.jpg" alt="img" />
-				</div>
-				<div class="card-body-2">
-					<h4>Off The Ground Off The Ground</h4>
-					<p class="para">
+	<section class="service" id="service">
+		<div class="text-center">
+			<div class="section-title-2">SERVICES</div>
+			<h2 class="fw-bold services" id="choose">
+				Choose The Service Package <br />
+				That Suits Your Needs
+			</h2>
+		</div>
+		<div class="container service-card d-grid gap-5 mx-auto">
+			<div class="card" style="width: 18rem;">
+				<img src="img/services-1.jpg" class="card-img-top" alt="service-img" />
+				<div class="card-body">
+					<h4 class="fw-bold">Off The Ground</h4>
+					<p class="para fs-6">
 						Perfect for fresh ideas or young startups, this package will help
 						get the business off the ground
 					</p>
-					<p class="para">
-						<i class="fa-solid fa-square ms-3"></i> Environment and
-						competition
-					</p>
-					<p class="para">
-						<i class="fa-solid fa-square ms-3"></i> Designing the marketing
-						plan
-					</p>
-					<p class="price">Starting at <span>$199</span></p>
+
+					<div class="text-start w-100">
+						<p class="para fs-6 d-flex align-items-center mb-2">
+							<i class="fa-solid fa-square me-2"></i>
+							Environment and competition
+						</p>
+
+						<p class="para fs-6 d-flex align-items-center mb-2">
+							<i class="fa-solid fa-square me-2"></i>
+							Designing the marketing plan
+						</p>
+					</div>
+
+					<p class="text-center fw-bold">Starting at <span class="price">$199</span></p>
 				</div>
-				<button type="submit" class="btn-2 btn-outline-#14bf98">
-					<a href="#callme">DETAILS</a>
-				</button>
 			</div>
-			<div class="box">
-				<div class="imgwrapper">
-					<img src="img/services-2.jpg" alt="img" />
-				</div>
-				<div class="card-body-2">
-					<h4>Accelerated Growth</h4>
-					<p class="para">
+
+			<div class="card" style="width: 18rem;">
+				<img src="img/services-2.jpg" class="card-img-top" alt="service-img" />
+				<div class="card-body">
+					<h4 class="fw-bold">Accelerated Growth</h4>
+					<p class="para fs-6">
 						Use this service pack to give your company the necessary impulse
 						to become an industry leader
 					</p>
-					<p class="para">
-						<i class="fa-solid fa-square ms-3"></i> Business strategy planning
-					</p>
-					<p class="para">
-						<i class="fa-solid fa-square ms-3"></i> Taking the planned actions
-					</p>
-					<p class="price">Starting at <span>$299</span></p>
+
+					<div class="text-start w-100">
+						<p class="para fs-6 d-flex align-items-center mb-2">
+							<i class="fa-solid fa-square me-2"></i>
+							Business strategy planning
+						</p>
+
+						<p class="para fs-6 d-flex align-items-center mb-2">
+							<i class="fa-solid fa-square me-2"></i>
+							Taking the planned actions
+						</p>
+					</div>
+					<p class="text-center fw-bold">Starting at <span class="price">$299</span></p>
 				</div>
-				<button type="submit" class="btn-2 btn-outline-#14bf98">
-					<a href="#callme">DETAILS</a>
-				</button>
 			</div>
-			<div class="box">
-				<div class="imgwrapper">
-					<img src="img/services-3.jpg" alt="img" />
-				</div>
-				<div class="card-body-2">
-					<h4>Market Domination</h4>
-					<p class="para">
+
+			<div class="card" style="width: 18rem;">
+				<img src="img/services-3.jpg" class="card-img-top" alt="service-img" />
+				<div class="card-body">
+					<h4 class="fw-bold">Market Domination</h4>
+					<p class="para fs-6">
 						You already are a reference point in your industry now you need to
 						learn about acquisitions
 					</p>
-					<p class="para">
-						<i class="fa-solid fa-square ms-3"></i> Maintaining the leader
-						status
-					</p>
-					<p class="para">
-						<i class="fa-solid fa-square ms-3"></i> Acquisitions the right way
-					</p>
-					<p class="price">Starting at <span>$299</span></p>
+					<div class="text-start w-100">
+						<p class="para fs-6 d-flex align-items-center mb-2">
+							<i class="fa-solid fa-square me-2"></i>
+							Maintaining the leader status
+						</p>
+
+						<p class="para fs-6 d-flex align-items-center mb-2">
+							<i class="fa-solid fa-square me-2"></i>
+							Acquisitions the right way
+						</p>
+					</div>
+					<p class="text-center fw-bold">Starting at <span class="price">$299</span></p>
 				</div>
-				<button type="submit" class="btn-2">
-					<a href="#callme">DETAILS</a>
-				</button>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<section>
 		<div class="content1">
