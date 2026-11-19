@@ -206,3 +206,29 @@ ul li a:hover {
 .services{
   color: var(--secondry3-color);
 }
+
+.btn-2{
+  background-color: var(--primary-color);
+}
+.btn-2 a{
+  color: var(--white);
+}
+
+.content1{
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+/* .help{
+  width: 35px;
+  height: 35px;
+  background: var(--primary-color);
+  border-radius: 50%;
+} */
+.active{
+  color: var(--primary-color) !important;
+  
+}
+.option-1{
+  background: var(--primary-color);
+  border: 3px solid black;
+}
