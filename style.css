@@ -218,17 +218,14 @@ ul li a:hover {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
-/* .help{
-  width: 35px;
-  height: 35px;
-  background: var(--primary-color);
-  border-radius: 50%;
-} */
+.services-heading{
+  font-size: 35px;
+}
 .active{
   color: var(--primary-color) !important;
   
 }
 .option-1{
   background: var(--primary-color);
-  border: 3px solid black;
+  border: 2px solid black;
 }

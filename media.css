@@ -1,10 +1,20 @@
-@media (max-width: 1230px) and (min-width: 992px) {
+/* @media (max-width: 1230px) {
   .starthead h1 {
     font-size: 55px;
   }
   .para {
     width: 50%;
   }
+} */
+
+@media (max-width: 1170px)and (min-width: 992px) {
+  .services-heading {
+    font-size: 25px;
+  }
+
+  /* .{
+    margin-bottom: 20px;
+  } */
 }
 
 @media (max-width: 991px) {
@@ -19,6 +29,12 @@
   .row,
   .service-card {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .content1{
+    grid-template-columns: 1fr;
+  }
+  .card{
+    width: 100%;
   }
 }
 
