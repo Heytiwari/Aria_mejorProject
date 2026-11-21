@@ -43,8 +43,20 @@
     font-size: 40px;
   }
 
-  .row,
-  .service-card {
+  .row{
     grid-template-columns: 1fr;
   }
+
+  .service-card {
+  /* display: grid; */
+  grid-template-columns: 1fr;
+  place-items: center;
+  justify-content: center;
+  width: 100% !important;
+}
+}
+
+@media (max-width: 567px) {
+
+  
 }
