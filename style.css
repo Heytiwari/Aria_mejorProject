@@ -239,6 +239,15 @@ ul li a:hover {
 .business-services{
   color: var(--primary-color);
 }
-.progress{
+.progress-bar-1{
+  width: 100%;
+  background-color: var(--primary-color);
+}
+.progress-bar-2{
+  width: 76%;
+  background-color: var(--primary-color);
+}
+.progress-bar-3{
+  width: 90%;
   background-color: var(--primary-color);
 }
