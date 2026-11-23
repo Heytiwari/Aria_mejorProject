@@ -27,11 +27,12 @@
   }
 
   .row,
-  .service-card {
+  .service-card, .testimonial {
     grid-template-columns: repeat(2, 1fr);
   }
   .content1{
     grid-template-columns: 1fr;
+    gap: 30px;
   }
   .card{
     width: 100%;
@@ -47,12 +48,11 @@
     grid-template-columns: 1fr;
   }
 
-  .service-card {
-  /* display: grid; */
+  .service-card, .testimonial {
   grid-template-columns: 1fr;
-  place-items: center;
-  justify-content: center;
-  width: 100% !important;
+  /* place-items: center; */
+  /* justify-content: center;
+  width: 100% !important; */
 }
 }
 
