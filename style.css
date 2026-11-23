@@ -230,3 +230,9 @@ ul li a:hover {
   border: 2px solid black;
   padding: 10px 12px;
 }
+.head2{
+  color: var(--primary-color);
+}
+.num{
+  color: var(--white);
+}
