@@ -527,29 +527,29 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 		</div>
 	</section>
 
-	<section class="callme" id="callme">
+	<section class="callme container-fluid" id="callme">
 		<div class="container">
-			<div class="callus">
+			<div class="callus d-grid">
 				<!-- Left Content -->
 				<div class="content">
-					<span>CALL ME</span>
-					<h1>Have Us Contact You By Filling And Submitting The Form</h1>
-					<p>
+					<span class="active fw-bold">CALL ME</span>
+					<h2 class="num fw-bold mt-2">Have Us Contact You By Filling And Submitting The Form</h2>
+					<p class="callme-about white1">
 						You are just a few steps away from a personalized offer. Just fill
 						in the form and send it to us and we'll get right back with a call
 						to help you decide what service package works.
 					</p>
-					<ul>
-						<li>
-							<i class="fa-solid fa-square"></i> It's very easy, just fill in
+					<ul class="list-unstyled">
+						<li class="text-decoration-none white1 mb-2">
+							<i class="fa-solid fa-square active"></i> It's very easy, just fill in
 							the form so we can call
 						</li>
-						<li>
-							<i class="fa-solid fa-square"></i> During the call, we'll
+						<li class="white1 mb-2">
+							<i class="fa-solid fa-square active"></i> During the call, we'll
 							require some info about the company
 						</li>
-						<li>
-							<i class="fa-solid fa-square"></i> Don't hesitate to email us
+						<li class="white1 mb-2">
+							<i class="fa-solid fa-square active"></i> Don't hesitate to email us
 							for any questions or inquiries
 						</li>
 					</ul>
@@ -557,21 +557,21 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 
 				<!-- Right Form -->
 				<div class="form-container">
-					<form>
-						<input type="text" placeholder="Name" required />
-						<input type="tel" placeholder="Phone" required />
-						<input type="email" placeholder="Email" required />
-						<select required>
-							<option value="">Interested in...</option>
+					<form class="d-flex flex-column gap-3">
+						<input class="input input-bg" type="text" placeholder="Name" required />
+						<input class="input input-bg" type="tel" placeholder="Phone" required />
+						<input class="input input-bg" type="email" placeholder="Email" required />
+						<select class="input input-bg option" required>
+							<option class="option" value="">Interested in...</option>
 							<option value="service1">Service 1</option>
 							<option value="service2">Service 2</option>
 						</select>
 						<div class="checkbox-group">
 							<input type="checkbox" id="privacy" required />
-							<label for="privacy">I agree with Aria's stated <a href="#">Privacy Policy</a> and
-								<a href="#">Terms & Conditions</a>.</label>
+							<label class="option" for="privacy">I agree with Aria's stated <a class="active text-decoration-none" href="#">Privacy Policy</a> and
+								<a class="active text-decoration-none" href="#">Terms & Conditions</a>.</label>
 						</div>
-						<button type="submit">CALL ME</button>
+						<button class="input btn-2 num fw-bold callme-btn" type="submit">CALL ME</button>
 					</form>
 				</div>
 			</div>

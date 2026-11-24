@@ -30,7 +30,7 @@
   .service-card, .testimonial {
     grid-template-columns: repeat(2, 1fr);
   }
-  .content1{
+  .content1, .callus{
     grid-template-columns: 1fr;
     gap: 30px;
   }

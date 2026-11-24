@@ -253,3 +253,38 @@ ul li a:hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+.callme{
+  background-color: #153E52;
+  padding: 30px;
+}
+.callus{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.white1{
+  color: var(--white1);
+}
+.input {
+  height: 40px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.input:focus {
+  border: 1px solid var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 5px var(--primary-color);
+}
+.input-bg{
+  background-color: #2A5D77;
+}
+.input::placeholder, .option{
+  color: var(--white1);
+}
+.callme-btn:hover{
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
+}
