@@ -392,3 +392,11 @@ ul li a:hover {
   background-color: var(--white);
   color: var(--primary-color);
 }
+/* .about-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+
+.counter-value{
+  font-size: 50px;
+}
