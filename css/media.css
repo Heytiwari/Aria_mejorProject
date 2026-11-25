@@ -7,7 +7,7 @@
   }
 } */
 
-@media (max-width: 1170px)and (min-width: 992px) {
+@media (max-width: 1170px) and (min-width: 992px) {
   .services-heading {
     font-size: 25px;
   }
@@ -27,22 +27,28 @@
   }
 
   .row,
-  .service-card, .testimonial {
+  .service-card,
+  .testimonial {
     grid-template-columns: repeat(2, 1fr);
   }
-  .content1, .callus{
+  .content1,
+  .callus {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  .card{
+  .card {
     width: 100%;
   }
-  .project-grid{
-  grid-template-columns: repeat(2, 1fr);
-}
-.project-btn-group{
-  flex-wrap: wrap;
-}
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project-btn-group {
+    flex-wrap: wrap;
+  }
+  .team-members {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
 }
 
 @media (max-width: 776px) {
@@ -50,22 +56,25 @@
     font-size: 40px;
   }
 
-  .row{
+  .row {
     grid-template-columns: 1fr;
+    text-align: center;
   }
 
-  .service-card, .testimonial {
-  grid-template-columns: 1fr;
-  /* place-items: center; */
-  /* justify-content: center;
+  .service-card,
+  .testimonial {
+    grid-template-columns: 1fr;
+    /* place-items: center; */
+    /* justify-content: center;
   width: 100% !important; */
-}
-.project-grid{
-  grid-template-columns: repeat(1, 1fr);
-}
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .team-members {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 567px) {
-
-  
 }
