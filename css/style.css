@@ -145,9 +145,6 @@ ul li a:hover {
   margin-top: 60px;
   margin-bottom: 60px;
 }
-.section-title {
-  color: var(--primary-color);
-}
 .image-container {
   overflow: hidden;
 }
@@ -291,12 +288,22 @@ ul li a:hover {
 }
 
 .project-filter a {
-  padding: 5px 10px;
-  color: var(--white);
-  background: var(--primary-color);
+  padding: 8px 10px;
+  color: grey;
+  background: #f1f1f0;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+}
+.project-filter a:hover {
+  color: var(--white);
+  background: var(--primary-color);
+  font-weight: bold;
+  
+}
+.project-btn-group .project-filter:first-child a{
+  color: var(--white);
+  background-color: var(--primary-color);
 }
 
 .project-grid {
@@ -373,8 +380,8 @@ ul li a:hover {
   transform: scale(1.1);
 }
 
-.team-social-icons a {
-  padding: 5px 12px;
+.team-social-icons a, .social-item a {
+  padding: 8px 12px;
   color: var(--white);
   clip-path: polygon(
     30% 0%,
@@ -392,11 +399,63 @@ ul li a:hover {
   background-color: var(--white);
   color: var(--primary-color);
 }
-/* .about-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
 
 .counter-value{
   font-size: 50px;
+}
+
+.social-item a:hover{
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.input1 {
+  height: 40px;
+  padding-left: 10px;
+  border: 2px solid var(--primary-color);
+  outline: none;
+  border-radius: 5px;
+}
+.textarea {
+  padding-left: 10px;
+  border: 2px solid var(--primary-color);
+  outline: none;
+  border-radius: 5px;
+}
+
+.input1:focus, .textarea:focus {
+  border: 2px solid var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+.input1::placeholder, .textarea::placeholder{
+  color: var(--p-color);
+}
+.contact-submit-button {
+  height: 40px;
+  border-radius: 5px;
+  /* outline: none; */
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white);  
+}
+.contact-submit-button:hover {
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+}
+.footer{
+  background-color: #153E52;
+  overflow-y: hidden;
+}
+.footer-links{
+  gap: 30px;
+
+}
+.footer-link-group a, .footer-tools a, .footer-partners a{
+  color: var(--white1);
+}
+.footer-link-group a:hover, .footer-tools a:hover, .footer-partners a:hover{
+  color: var(--primary-color);
 }

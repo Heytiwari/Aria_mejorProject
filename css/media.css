@@ -49,6 +49,13 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
+  .footer-container{
+    text-align: center;
+  }
+  .footer-links{
+    margin-top: 30px;
+    justify-content: center;
+  }
 
 }
 
@@ -77,5 +84,20 @@
   }
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
+	#about .about-stats {
+		gap: 1rem !important;
+	}
+
+	#about .about-stat {
+		gap: 0.5rem !important;
+	}
+
+	#about .counter-value {
+		font-size: 1.5rem;
+	}
+
+	#about .counter-info {
+		font-size: 0.85rem;
+	}
 }
