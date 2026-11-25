@@ -37,6 +37,12 @@
   .card{
     width: 100%;
   }
+  .project-grid{
+  grid-template-columns: repeat(2, 1fr);
+}
+.project-btn-group{
+  flex-wrap: wrap;
+}
 }
 
 @media (max-width: 776px) {
@@ -53,6 +59,9 @@
   /* place-items: center; */
   /* justify-content: center;
   width: 100% !important; */
+}
+.project-grid{
+  grid-template-columns: repeat(1, 1fr);
 }
 }
 
