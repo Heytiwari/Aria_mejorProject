@@ -467,7 +467,9 @@ ul li a:hover {
   background-color: var(--white);
   color: var(--primary-color);
 }
-
+.about-stats{
+  gap: 35px;
+}
 .counter-value {
   font-size: 50px;
 }
@@ -561,6 +563,12 @@ ul li a:hover {
 
 input[type="checkbox"] {
   accent-color: var(--primary-color);
+}
+
+.privacy-checkbox input[type="checkbox"]:checked {
+    background-color: #14bf98;
+    border-color: #14bf98;
+    color: white;
 }
 .contact-submit-button {
   height: 40px;
