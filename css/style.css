@@ -440,7 +440,8 @@ ul li a:hover {
   gap: 10px;
 }
 
-.team-social-icons a, .social-item a {
+.team-social-icons a,
+.social-item a {
   width: 35px;
   height: 35px;
   display: flex;
@@ -475,17 +476,53 @@ ul li a:hover {
   background-color: var(--white);
   color: var(--primary-color);
 }
+/* Contact Section */
 
-.input1 {
+#contact .contact-details,
+#contact .contact-form-wrapper {
+  min-width: 0;
+}
+
+#contact .contact-description {
+  line-height: 1.8;
+  margin: 20px 0;
+}
+
+#contact .contact-address {
+  /* line-height: 1.8; */
+  /* overflow-wrap: anywhere; */
+}
+
+#contact .contact-info {
+  align-items: center;
+}
+
+#contact .contact-item {
+  margin-bottom: 10px;
+  overflow-wrap: anywhere;
+}
+
+#contact .social-links {
+  align-items: center;
+}
+
+#contact .social-item {
+  flex-shrink: 0;
+}
+
+#contact .contact-form {
+  width: 100%;
+}
+ .input1 {
   height: 40px;
   padding-left: 10px;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   outline: none;
   border-radius: 5px;
 }
 .textarea {
   padding-left: 10px;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   outline: none;
   border-radius: 5px;
 }
@@ -501,10 +538,33 @@ ul li a:hover {
 .textarea::placeholder {
   color: var(--p-color);
 }
+
+/* #contact .textarea {
+  resize: vertical;
+} */
+
+#contact .privacy-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#contact .privacy-checkbox input {
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+#contact .privacy-checkbox label {
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--primary-color);
+}
 .contact-submit-button {
   height: 40px;
   border-radius: 5px;
-  /* outline: none; */
   border: none;
   background-color: var(--primary-color);
   color: var(--white);
@@ -514,6 +574,13 @@ ul li a:hover {
   background-color: transparent;
   color: var(--primary-color);
 }
+/* #contact .contact-submit-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
 .footer {
   background-color: #153e52;
   overflow-y: hidden;

@@ -2,7 +2,6 @@
   .services-heading {
     font-size: 25px;
   }
-
 }
 
 @media (max-width: 991px) {
@@ -15,7 +14,7 @@
   }
 
   .row,
-  .service-card{
+  .service-card {
     grid-template-columns: repeat(2, 1fr);
   }
   .content1,
@@ -32,17 +31,16 @@
   .project-btn-group {
     flex-wrap: wrap;
   }
-  .contact-form-wrapper{
+  .contact-form-wrapper {
     margin-top: 30px;
   }
-  .footer-container{
+  .footer-container {
     text-align: center;
   }
-  .footer-links{
+  .footer-links {
     margin-top: 30px;
     justify-content: center;
   }
-
 }
 
 @media (max-width: 767px) {
@@ -55,7 +53,7 @@
     text-align: center;
   }
 
-  .service-card{
+  .service-card {
     grid-template-columns: 1fr;
     /* place-items: center; */
     /* justify-content: center;
@@ -64,23 +62,32 @@
   .project-grid {
     grid-template-columns: 1fr;
   }
-
 }
 
 @media (max-width: 576px) {
-	#about .about-stats {
-		gap: 1rem !important;
-	}
+  #about .about-stats {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem !important;
+  }
 
-	#about .about-stat {
-		gap: 0.5rem !important;
-	}
+  #about .about-stat {
+    /* flex: 1 100%; */
+    justify-content: center;
+    gap: 20px !important;
+    min-width: 0;
+  }
 
-	/* #about .counter-value {
-		font-size: 50px;
-	} */
+  #about .counter-value {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
 
-	#about .counter-info {
-		font-size: 0.85rem;
-	}
+  #about .counter-info {
+    font-size: 0.85rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
 }
