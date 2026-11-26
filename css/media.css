@@ -1,20 +1,8 @@
-/* @media (max-width: 1230px) {
-  .starthead h1 {
-    font-size: 55px;
-  }
-  .para {
-    width: 50%;
-  }
-} */
-
 @media (max-width: 1170px) and (min-width: 992px) {
   .services-heading {
     font-size: 25px;
   }
 
-  /* .{
-    margin-bottom: 20px;
-  } */
 }
 
 @media (max-width: 991px) {
@@ -27,8 +15,7 @@
   }
 
   .row,
-  .service-card,
-  .testimonial {
+  .service-card{
     grid-template-columns: repeat(2, 1fr);
   }
   .content1,
@@ -45,11 +32,6 @@
   .project-btn-group {
     flex-wrap: wrap;
   }
-  .team-members {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-
   .contact-form-wrapper{
     margin-top: 30px;
   }
@@ -63,7 +45,7 @@
 
 }
 
-@media (max-width: 776px) {
+@media (max-width: 767px) {
   .starthead h1 {
     font-size: 40px;
   }
@@ -73,8 +55,7 @@
     text-align: center;
   }
 
-  .service-card,
-  .testimonial {
+  .service-card{
     grid-template-columns: 1fr;
     /* place-items: center; */
     /* justify-content: center;
@@ -83,9 +64,7 @@
   .project-grid {
     grid-template-columns: 1fr;
   }
-  .team-members {
-    grid-template-columns: 1fr;
-  }
+
 }
 
 @media (max-width: 576px) {

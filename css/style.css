@@ -249,6 +249,43 @@ ul li a:hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
+.card-text {
+  color: var(--secondry-color);
+}
+.testimonial-card {
+  padding: 15px;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.testimonial-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial-content {
+  max-width: 300px;
+  margin: auto;
+}
+
+.testimonial-content p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 20px !important;
+}
+
+.testimonial-content strong {
+  font-size: 16px;
+}
+
 .callme {
   background-color: #153e52;
   padding: 30px;
@@ -299,9 +336,8 @@ ul li a:hover {
   color: var(--white);
   background: var(--primary-color);
   font-weight: bold;
-  
 }
-.project-btn-group .project-filter:first-child a{
+.project-btn-group .project-filter:first-child a {
   color: var(--white);
   background-color: var(--primary-color);
 }
@@ -369,20 +405,49 @@ ul li a:hover {
   z-index: 2;
 }
 
-.team-members{
-  grid-template-columns: repeat(4, 1fr);
-  /* gap: 20px; */
-}
-.team-card img{
-  transition: all 0.7s ease-in-out;
-}
-.team-card img:hover{
-  transform: scale(1.1);
+.team-members {
+  margin-top: 20px;
 }
 
-.team-social-icons a, .social-item a {
-  padding: 8px 12px;
+.team-card {
+  padding: 10px;
+  text-align: center;
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.7s ease-in-out;
+}
+
+.team-card img:hover {
+  transform: scale(1.05);
+}
+
+.team-info p {
+  font-size: 16px;
+  color: var(--secondry-color);
+}
+
+.team-info h5 {
+  font-size: 18px;
+}
+
+.team-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-social-icons a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--white);
+  background-color: var(--primary-color);
   clip-path: polygon(
     30% 0%,
     70% 0%,
@@ -393,18 +458,20 @@ ul li a:hover {
     0% 70%,
     0% 30%
   );
-  background-color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
+
 .team-social-icons a:hover {
   background-color: var(--white);
   color: var(--primary-color);
 }
 
-.counter-value{
+.counter-value {
   font-size: 50px;
 }
 
-.social-item a:hover{
+.social-item a:hover {
   background-color: var(--white);
   color: var(--primary-color);
 }
@@ -423,13 +490,15 @@ ul li a:hover {
   border-radius: 5px;
 }
 
-.input1:focus, .textarea:focus {
+.input1:focus,
+.textarea:focus {
   border: 2px solid var(--primary-color);
   outline: none;
   box-shadow: 0 0 5px var(--primary-color);
 }
 
-.input1::placeholder, .textarea::placeholder{
+.input1::placeholder,
+.textarea::placeholder {
   color: var(--p-color);
 }
 .contact-submit-button {
@@ -438,24 +507,27 @@ ul li a:hover {
   /* outline: none; */
   border: none;
   background-color: var(--primary-color);
-  color: var(--white);  
+  color: var(--white);
 }
 .contact-submit-button:hover {
   border: 2px solid var(--primary-color);
   background-color: transparent;
   color: var(--primary-color);
 }
-.footer{
-  background-color: #153E52;
+.footer {
+  background-color: #153e52;
   overflow-y: hidden;
 }
-.footer-links{
+.footer-links {
   gap: 30px;
-
 }
-.footer-link-group a, .footer-tools a, .footer-partners a{
+.footer-link-group a,
+.footer-tools a,
+.footer-partners a {
   color: var(--white1);
 }
-.footer-link-group a:hover, .footer-tools a:hover, .footer-partners a:hover{
+.footer-link-group a:hover,
+.footer-tools a:hover,
+.footer-partners a:hover {
   color: var(--primary-color);
 }
