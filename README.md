@@ -1,93 +1,131 @@
-# Aria -- Business Growth Website
+<div align="center">
 
-A responsive business consultancy landing page inspired by the Aria
-template. The website presents business growth services, projects, team
-members, testimonials, and contact information in a clean, section-based
-layout.
+# ✨ ARIA — Business Growth & Consultancy
 
-## Features
+### A modern, responsive business landing page built with Bootstrap
 
--   Responsive navigation with links to the main sections
--   Hero section with a business-focused introduction
--   Introduction and business strategy cards
--   Service packages and pricing
--   Business growth details and progress indicators
--   Customer testimonials
--   Contact / call-back forms
--   Project portfolio with category filters
--   Team member profiles and social links
--   About section with statistics
--   Contact details and social media links
--   Footer with useful links, tools, partners, and copyright
--   Back-to-top link
+<p>
+  <img src="https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Bootstrap-5.3.8-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/JavaScript-Interactions-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
 
-## Built With
+<p>
+  <b>A clean and responsive business website created for frontend development practice.</b>
+</p>
 
--   HTML5
--   CSS3
--   Bootstrap 5.3.8
--   Font Awesome 6.7.2
--   Owl Carousel 2.3.4
--   jQuery 3.7.1
--   JavaScript
+</div>
 
-## Getting Started
+---
 
-1.  Download or clone the project.
-2.  Open the project folder in your code editor.
-3.  Make sure the asset folders and files referenced by the HTML are
-    present.
-4.  Open `index.html` in your browser, or use the Live Server extension
-    in Visual Studio Code.
+## 📌 About the Project
 
-## Project Structure
+**Aria** is a business consultancy landing page designed to present services, projects, team members, and customer feedback in a professional layout.
 
-The HTML references the following files and folders. Your local project
-may include additional assets.
+The project focuses on responsive design, reusable sections, interactive UI elements, and a smooth browsing experience.
 
-``` text
-project-folder/
-├── index.html
+## 🖥️ Preview
+
+> Add your project screenshots to the `screenshots/` folder and update the image paths below.
+
+---
+
+### 📱 Responsive Previews (Optional)
+| Desktop View |
+| :---: |
+| ![Desktop Preview](./screenshorts/desktop.png) |
+---
+
+### 📱 Responsive Previews (Optional)
+| Tablet | Mobile |
+| :---: | :---: |
+| ![Tablet Preview](./screenshorts/tablet.png) | ![Mobile Preview](./screenshorts/mobile.png)  |
+
+---
+
+## 🌟 Features
+
+- Responsive navigation with section links
+- Hero section with animated heading text
+- Introduction and business overview
+- Service cards and business growth content
+- Customer testimonials carousel
+- Contact / callback form sections
+- Project gallery with category filters
+- Team members carousel
+- About section with statistics
+- Contact details and social media links
+- Smooth back-to-top button
+- Responsive layout for desktop, tablet, and mobile screens
+
+## 🧰 Tech Stack
+
+| Technology | Purpose |
+| --- | --- |
+| HTML5 | Website structure |
+| CSS3 | Custom styling and responsive design |
+| Bootstrap 5.3.8 | Layout and utility classes |
+| JavaScript | Interactive functionality |
+| jQuery 3.7.1 | JavaScript library |
+| Owl Carousel 2.3.4 | Testimonials and team sliders |
+| Font Awesome 6.7.2 | Icons |
+
+## 📁 Project Structure
+
+```text
+Aria/
 ├── css/
 │   ├── style.css
 │   └── media.css
 ├── js/
 │   └── carousel.js
-└── img/
-    ├── logo.svg
-    ├── intro-office.jpg
-    ├── services-*.jpg
-    ├── details-*-background.jpg
-    ├── testimonial-*.jpg
-    ├── project-*.jpg
-    ├── team-*.png
-    └── other images and icons
+├── img/
+│   └── website images and icons
+├── screenshots/
+│   ├── desktop.png
+│   ├── tablet.png
+│   └── mobile.png
+└── index.html
 ```
 
-## Customization
+## 🚀 Run Locally
 
--   Update text, images, and section content in `index.html`.
--   Change the main styles in `css/style.css`.
--   Adjust responsive styles in `css/media.css`.
--   Update carousel behavior in `js/carousel.js`.
--   Replace placeholder links, contact details, and social URLs with
-    your own.
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in your browser.
 
-## Important Notes
+For live preview and automatic refresh, use the **Live Server** extension.
 
--   Bootstrap, Font Awesome, jQuery, and Owl Carousel are loaded using
-    CDN links in the HTML.
--   Ensure the local CSS, JavaScript, and image paths match your project
-    folders.
--   The forms currently provide the front-end interface; connect them to
-    a backend or form service to process submissions.
--   Replace sample content and placeholder URLs before publishing.
+## 📱 Responsive Design
 
-## Author
+The layout is made to adapt to different screen sizes using Bootstrap utilities and custom CSS media queries.
 
-**Rajan**
+- **Desktop:** Full navigation and multi-column layouts
+- **Tablet:** Adjusted spacing and section layouts
+- **Mobile:** Compact content and mobile-friendly navigation
 
-## License
+## 🎯 What I Practiced
 
-This project is created for learning and frontend development practice.
-Add a license file if you plan to distribute it publicly.
+- Building a complete landing page with HTML and CSS
+- Using Bootstrap components and utility classes
+- Creating responsive layouts with media queries
+- Integrating Owl Carousel
+- Organizing project files and assets
+- Improving UI consistency and frontend workflow
+
+## 👨‍💻 Author
+
+**Rajan Kumar Tiwari**
+
+- GitHub: [@Heytiwari](https://github.com/Heytiwari)
+
+---
+
+<div align="center">
+
+### 💙 Thanks for checking out this project!
+
+*Made with focus, practice, and a passion for frontend development.*
+
+</div>

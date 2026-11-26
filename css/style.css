@@ -440,7 +440,7 @@ ul li a:hover {
   gap: 10px;
 }
 
-.team-social-icons a {
+.team-social-icons a, .social-item a {
   width: 35px;
   height: 35px;
   display: flex;
