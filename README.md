@@ -40,6 +40,10 @@ The project focuses on responsive design, reusable sections, interactive UI elem
 
 ---
 
+## 🎥 Project Video Demo
+
+https://github.com/user-attachments/assets/0911d50d-58d1-42ab-9648-a7085a9a9593
+
 ## 🌟 Features
 
 - Responsive navigation with section links
