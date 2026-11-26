@@ -25,13 +25,9 @@
 
 The project focuses on responsive design, reusable sections, interactive UI elements, and a smooth browsing experience.
 
-## 🖥️ Preview
-
-> Add your project screenshots to the `screenshots/` folder and update the image paths below.
-
 ---
 
-### 📱 Responsive Previews (Optional)
+### 🖥️ Responsive Previews (Optional)
 | Desktop View |
 | :---: |
 | ![Desktop Preview](./screenshorts/desktop.png) |
